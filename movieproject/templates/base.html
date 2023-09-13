@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-red bg-dark">
+        <a class="navbar-brand" href="#">
+            <h3 >MOVIE STORE</h3>
+        </a>
+        <a class="navbar-link" href="{% url 'movie_list:"></a>
+    </nav>
+</div>
+
+{% block body %}
+{% endblock %}
+</body>
+</html>
